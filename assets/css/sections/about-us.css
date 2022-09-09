@@ -5,8 +5,8 @@
     position: relative;
     border: 50px;
 }
-.bookshelf-about-us {
-    height: fit-content;
-    position: relative;
-    width: 80%;
+.about-us
+{
+  height: 400px;
+  width: 80%;
 }
