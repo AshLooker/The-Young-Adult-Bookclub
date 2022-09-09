@@ -1,21 +1,4 @@
-/* header */
-
-.page-header {
-    font-weight: 600;
-    margin: 0px;
-    padding: 20px;
-    color: #ffffee;
-    font-size: 30px;
-    background-color: darkgray;
-    height: fit-content;
-    height: 70px;
-    }
-
-.page-header .header .logo {
-    line-height: 30px;
-    float:right;
-    font-size: 25px;
-}
+/* navigation section */
 
 .navigation {
     background-color: aqua;
@@ -23,27 +6,27 @@
     height: 50px
 }
 
-#menu {
+.menu {
     font-size: 100%;
     letter-spacing: 1px;
 }
 
-#menu, #logo {
+.menu, .logo {
     line-height: 50px;
 }
 
-#menu li {
+.menu li {
     float: right;
     list-style-type: none;
     margin-right: 20px;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
     color: inherit;
 }
 
-#menu a:hover {
+.menu a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
 
