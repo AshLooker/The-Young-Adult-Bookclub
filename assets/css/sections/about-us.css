@@ -1,0 +1,12 @@
+.about-us {
+    background-color: darkslateblue;
+    height: 500px;
+    width: 80%;
+    position: relative;
+    border: 50px;
+}
+.bookshelf-about-us {
+    height: fit-content;
+    position: relative;
+    width: 80%;
+}
