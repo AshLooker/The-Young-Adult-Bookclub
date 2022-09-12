@@ -21,33 +21,33 @@
 
 /* navigation section */
 
-.navigation {
+.navigation-bar {
     background: linear-gradient(270deg,#f8ece7 31.77%,hsla(18,55%,94%,0.3));
     padding: 0px;
     height: 50px
 }
 
-.menu {
+.nav-links {
     font-size: 100%;
     letter-spacing: 1px;
 }
 
-.menu, .logo {
+.nav-links, .logo {
     line-height: 50px;
 }
 
-.menu li {
+.nav-links li {
     float: right;
     list-style-type: none;
     margin-right: 20px;
 }
 
-.menu a {
+.nav-links a {
     text-decoration: none;
     color: inherit;
 }
 
-.menu a:hover {
+.nav-links a:hover {
     border-bottom: 1px solid #3a3a3a;
 }
 
@@ -65,4 +65,18 @@
   background-position: center;
   background-size: cover;
   position: relative;
+}
+
+/* locations section */
+
+.locations {
+    min-height: 75vh;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.maps {
+    min-height: 75vh;
+    width: 100%;
+    background-color: maroon;
 }
