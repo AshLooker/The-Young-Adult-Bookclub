@@ -1,0 +1,68 @@
+/* header section */
+
+.page-header {
+    
+    font-weight: 600;
+    margin: 0px;
+    padding: 20px;
+    color: black;
+    font-size: 30px;
+    background-color: #fff;
+    height: fit-content;
+    height: 55px;
+    }
+
+.page-header .header .logo {
+    line-height: 50px;
+    float:right;
+    font-size: 35px;
+}
+
+
+/* navigation section */
+
+.navigation {
+    background: linear-gradient(270deg,#f8ece7 31.77%,hsla(18,55%,94%,0.3));
+    padding: 0px;
+    height: 50px
+}
+
+.menu {
+    font-size: 100%;
+    letter-spacing: 1px;
+}
+
+.menu, .logo {
+    line-height: 50px;
+}
+
+.menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.menu a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+
+/* about us section */
+
+.about-us {
+  min-height: 75vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(2, 2, 2, 0.5),rgba(2, 2, 2, 0.5)),url(/assets/images/gc-library.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
