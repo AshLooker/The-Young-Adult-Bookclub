@@ -21,9 +21,10 @@
     height: 100vh;
     width: 200px;
     top: 0;
-    right: 0;
+    right: -200px;
     text-align: left;
     z-index: 2;
+    transition: 1s;
 }
 
 .nav-links li {
@@ -45,6 +46,21 @@
     margin: 10px;
     font-size: 20px;
     cursor: pointer;
+}
+
+.navigation-bar .fa-solid {
+    display: block;
+    color:#3a3a3a;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 99;
+    right: 5;
+}
+
+.nav-links ul {
+    padding: 25px;
 }
 
 

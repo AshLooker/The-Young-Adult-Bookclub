@@ -15,7 +15,8 @@
     <link rel="stylesheet" href="assets/css/sections.css">
 <!-- @ media css -->
     <link rel="stylesheet" href="assets/css/@media.css">
-
+<!-- JS Menu-->
+    <link rel="stylesheet" href="menu.js">
 
     <title>The Young Adult Bookclub</title>
     <link rel="icon" href="assets/images/bookclub logo.jpeg">
@@ -31,19 +32,35 @@
 
 <section class="navigation-bar">
     <nav>
-    <div class="nav-links">    
-        <i class="fa-solid fa-xmark"></i>
+    <div class="nav-links" id="navLinks">    
+        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
         <ul >                        
             <li><a href="index.html">Home</a></li>
             <li><a href="about-us.html"class="active">About Us</a></li>
-            <li><a href="contact.html" >Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
             <li><a href="blog.html">Blog</a></li>
             <li><a href="find-a-book.html">Find a Book</a>
             
         </ul>    
     </div> 
-    <i class="fa-solid fa-bars"></i>    
+    <i class="fa-solid fa-bars" onclick="showMenu()"></i>    
     </nav>       
 </section>
 
-<script src="https://kit.fontawesome.com/b5f8edf46b.js" crossorigin="anonymous"></script>
+
+<!------------ JavaScript ------------->
+<script>
+
+    var navLinks = document.getElementById("navLinks")
+
+    function showMenu() {
+        navLinks.style.right = "0"
+}
+    function hideMenu() {
+        navLinks.style.right = "-200px"
+}
+
+</script>
+    <script src="https://kit.fontawesome.com/b5f8edf46b.js" crossorigin="anonymous"></script>
+</body>
+</html>
