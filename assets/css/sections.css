@@ -47,21 +47,32 @@
     position: relative;
 }
 
-.nav-links a {
+.nav-links ul li a {
     text-decoration: none;
     color:#3a3a3a;
     font-size: 18px;
 }
 
-.nav-links a:hover {
-    border-bottom: 2px solid #f44336;
+.nav-links ul ::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    display: block;
+    background: #f44336;
+    margin: auto;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.nav-links ul :hover ::after {
+    width: 100%;
 }
 
 .active {
     border-bottom: 2px solid #f44336;
 }
 
-.nav-links .fa-solid {
+.nav .fa-solid {
     display: none;
 }
 
