@@ -1,0 +1,94 @@
+
+@media (max-width: 700px){
+/* header section */
+
+.page-header {
+    display: block;
+}
+
+.page-header .header .logo {
+    line-height: 50px;
+    float:right;
+    font-size: 20px;
+}
+
+
+/* navigation section */
+
+.nav-links {
+    position: absolute;
+    background: #f44336;
+    height: 100vh;
+    width: 200px;
+    top: 0;
+    right: 0;
+    text-align: left;
+    z-index: 2;
+}
+
+.nav-links li {
+    display: block;
+    margin: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color:#fff;
+    font-size: 15px;
+}
+
+.nav-links .fa-solid {
+    display: block;
+    color:#fff;
+    margin: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+/* about us section */
+
+.about-us {
+  min-height: 79vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(2, 2, 2, 0.5),rgba(2, 2, 2, 0.5)),url(/assets/images/gc-library.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
+.about-us .text-box {
+    width: 90%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.about-us .text-box h1 {
+    font-size: 35px;
+}
+
+.about-us .text-box p {
+    margin: 30px 0 40px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.about-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 12px 34px;
+    font-size: 14px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+}
