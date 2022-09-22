@@ -15,67 +15,77 @@
     <link rel="stylesheet" href="assets/css/sections.css">
 <!-- @ media css -->
     <link rel="stylesheet" href="assets/css/@media.css">
+<!-- JavaScript -->
+    <script src="/assets/js/script.js" defer></script>
 
 
     <title>The Young Adult Bookclub</title>
     <link rel="icon" href="assets/images/bookclub logo.jpeg">
+
 </head>
 
 <body>
 
+  <div id="mySidenav-mobile" class="sidenav-mobile">
+    <div >
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <ul>
+      <li><a href="index.html"class="active">Home</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="find-a-book.html">Find a Book</a></li>
+    </ul>
+    </div>
+  </div>
+
+<!-- Page Content -->
+
 <section class="page-header">
-    <header class="header">
-            <h1 class="logo">The Young Adult Bookclub</h1>
-    </header>
+  <header class="header">
+          <h1 class="title">The Young Adult Bookclub</h1>
+          <button class="nav-btn" onclick="openNav()"><i class="fa-solid fa-bars"></i></button>
+  </header>
 </section>
 
 <section class="navigation-bar">
-    <nav>
-    <div class="nav-links" id="navLinks">    
-        <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
-        <ul >                        
-            <li><a href="index.html"class="active">Home</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="find-a-book.html">Find a Book</a> 
-        </ul>    
-    </div> 
-    <i class="fa-solid fa-bars" onclick="showMenu()"></i>    
-    </nav>       
+  <nav>
+  <div class="nav-links" id="navLinks">    
+      <ul >                        
+          <li><a href="index.html"class="active">Home</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="find-a-book.html">Find a Book</a> 
+      </ul>    
+  </div> 
+  </nav>       
 </section>
+
+
+<!---------- About Us Section ---------->
 
 <section class="about-us">    
 
-    <div class="text-box">
-        <h1>Southwest Ohio's Best Bookclub!</h1>
-        <p>Bringing book lovers together one book at a time.
-        </p>
-        <a href="about-us.html" class="about-btn">Click To Find Out More! </a>
-    </div>
+  <div class="text-box">
+      <h1>Southwest Ohio's Best Bookclub!</h1>
+      <p>Bringing book lovers together one book at a time.
+      </p>
+      <a href="about-us.html" class="about-btn">Click To Find Out More! </a>
+  </div>
 </section>
 
+<!--------- Location Section ---------->
 
 <section class="locations">
 
+  <h1>Places We Meet!</h1>
+
 </section>
+
+<!--------- Maps Section ---------->
 
 <section class="maps">
-    
+  
 </section>
-
-
-<script>
-
-    var navLinks = document.getElementById("navLinks")
-
-    function showMenu() {
-        navLinks.style.right = "0"
-}
-    function hideMenu() {
-        navLinks.style.right = "-200px"
-}
-
-</script>
 <script src="https://kit.fontawesome.com/b5f8edf46b.js" crossorigin="anonymous"></script>
 </body>
 </html>

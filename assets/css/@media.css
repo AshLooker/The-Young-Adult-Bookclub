@@ -3,65 +3,95 @@
 /* header section */
 
 .page-header {
-    display: block;
+    display: block;    
+    font-size: 18px;
+
 }
 
 .page-header .header .logo {
     line-height: 50px;
     float:right;
-    font-size: 20px;
+}
+
+.page-header .nav-btn {
+  display: inline-block;
+  text-decoration: none;
+  color: #3a3a3a;
+  font-size: 23px;
+  background: transparent;
+  position: relative;
+  left: 90%;
+  top: -66px;
+  width: 40px;
 }
 
 
 /* navigation section */
 
 .nav-links {
-    position: absolute;
-    background: #f44336;
-    height: 100vh;
-    width: 200px;
-    top: 0;
-    right: -200px;
-    text-align: left;
-    z-index: 2;
-    transition: 1s;
+  display: none;
 }
 
-.nav-links li {
-    display: block;
-    margin: 10px;
-    font-size: 20px;
+
+  /* The side navigation menu */
+
+  .sidenav-mobile {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    right: 0;
+    background-color: #f44336; /* Red*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav-mobile a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
     color: #fff;
+    display: block;
+    transition: 0.3s;
+  }
+
+  .sidenav-mobile ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 11px 20px;
+    position: relative;
 }
 
-.nav-links ul li a {
+  .sidenav-mobile ul li a {
     text-decoration: none;
     color:#fff;
     font-size: 18px;
 }
 
-.nav-links .fa-solid {
-    display: block;
-    color:#fff;
-    margin: 10px;
-    font-size: 20px;
-    cursor: pointer;
-}
-
-.navigation-bar .fa-solid {
-    display: block;
-    color:#3a3a3a;
-    margin: 10px;
-    font-size: 20px;
-    cursor: pointer;
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav-mobile a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav-mobile .closebtn {
     position: absolute;
-    top: 99;
-    right: 5;
-}
+    top: 0;
+    left: -60px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
 
-.nav-links ul {
-    padding: 25px;
-}
+   .button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+   }
 
 
 /* about us section */
