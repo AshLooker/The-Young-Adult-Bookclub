@@ -125,21 +125,67 @@
     background: transparent;
     position: relative;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .about-btn:hover {
-    border: 2px solid #f44336;
-    background: #f44336;
+    border: 2px solid #2fa9d2;
+    background: #2fa9d2;
     transition: 0.5s;
 
 }
 /* locations section */
 
+.row {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
 .locations {
-    min-height: 75vh;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 75px;
+}
+
+.location-column {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.location-column img {
     width: 100%;
 }
 
+.layer{
+    background:transparent;
+    height: 99%;
+    width: 100%;
+    position:absolute;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+}
+
+.layer:hover {
+    background: rgba(47, 169, 210, 0.7);
+    cursor: pointer;
+}
+
+.layer h3 {
+    width: 100%;
+    font-weight: 500;
+    color: #fff;
+    font-size: 30px;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
 /* maps section */
 
 .maps {

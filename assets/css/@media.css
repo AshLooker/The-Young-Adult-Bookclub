@@ -1,7 +1,6 @@
 
 @media (max-width: 700px){
 /* header section */
-
 .page-header {
     display: block;    
     font-size: 18px;
@@ -33,66 +32,7 @@
 }
 
 
-  /* The side navigation menu */
-
-  .sidenav-mobile {
-    height: 100%; /* 100% Full-height */
-    width: 0; /* 0 width - change this with JavaScript */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Stay on top */
-    top: 0; /* Stay at the top */
-    right: 0;
-    background-color: #f44336; /* Red*/
-    overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
-    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
-  }
   
-  /* The navigation menu links */
-  .sidenav-mobile a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #fff;
-    display: block;
-    transition: 0.3s;
-  }
-
-  .sidenav-mobile ul li {
-    list-style: none;
-    display: inline-block;
-    padding: 11px 20px;
-    position: relative;
-}
-
-  .sidenav-mobile ul li a {
-    text-decoration: none;
-    color:#fff;
-    font-size: 18px;
-}
-
-  
-  /* When you mouse over the navigation links, change their color */
-  .sidenav-mobile a:hover {
-    color: #f1f1f1;
-  }
-  
-  /* Position and style the close button (top right corner) */
-  .sidenav-mobile .closebtn {
-    position: absolute;
-    top: 0;
-    left: -60px;
-    font-size: 36px;
-    margin-left: 50px;
-  }
-
-   .button .bar {
-    height: 3px;
-    width: 100%;
-    background-color: #fff;
-    border-radius: 10px;
-   }
-
 
 /* about us section */
 
@@ -137,4 +77,14 @@
     cursor: pointer;
 }
 
+/* location section */
+
+.row {
+  flex-direction: column;
+}
+}
+
+
+@media screen and (min-width: 700px) and (max-width: 1024px) {
+  #mySidenav-mobile { display: none; }   /* hide it elsewhere */
 }
