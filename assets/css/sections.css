@@ -211,6 +211,30 @@
     overflow: hidden;
 }
 
+/* About Us Page */
+
+.aboutUs-page{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.aboutUs-img{
+    width:100%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    display: block;
+}
+
+.aboutUs-textBox{
+    background-color: #f8ece7;
+    border-radius: 10px;
+    margin-bottom:10%;
+}
+
 /* footer */
 
 .footer {
@@ -245,29 +269,3 @@ footer, p {
 
 
 
-/* About Us Page */
-
-.about-us-page {
-    min-height: 150vh;
-    text-align: center;
-}
-
-.about-us-header {
-    font-weight: 200;
-    margin: 0px;
-    padding: 20px;
-    color: black;
-    font-size: 30px;
-    background-color: #fff;
-    height: fit-content;
-    height: 55px;
-    letter-spacing: 3px;
-}
-
-.about-img {
-    width: 80%;
-    background-image: url(../images/about-us-img.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-}
