@@ -83,9 +83,36 @@
   flex-direction: column;
 }
 
+/* map section */
+
 .map-wrapper {
   flex-direction: column;
 }
+
+
+/* footer section */
+
+.social-networks {
+  text-align:  center;
+  padding-top: 8%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-networks i {
+  font-size: 180%;
+  margin: auto;
+  padding: 3%;
+  padding-top: 2%;
+  color: #3a3a3a;
+}
+
+footer, p {
+  text-align: center;
+  margin: auto;
+  padding-top: 5%;
+}
+
 }
 
 

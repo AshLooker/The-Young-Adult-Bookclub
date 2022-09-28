@@ -6,9 +6,13 @@
     font-family:'Merriweather', serif;
 }
 
-body{
-    background-repeat: no-repeat;
-    background:linear-gradient(180deg, rgba(255,255,255,1) 55%, rgba(248,236,231,1) 100%);
+h2 {
+  font-size: 35px;
+}
+
+body{    
+  background:linear-gradient(180deg, rgba(255,255,255,1) 55%, rgba(248,236,231,1) 100%);
+  background-repeat: no-repeat;
   }
   
 

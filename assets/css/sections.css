@@ -159,11 +159,12 @@
 
 .location-column img {
     width: 100%;
+    display: block;
 }
 
 .layer{
     background:transparent;
-    height: 99%;
+    height: 100%;
     width: 100%;
     position:absolute;
     top: 0;
@@ -181,7 +182,7 @@
     font-weight: 500;
     color: #fff;
     font-size: 30px;
-    bottom: 0;
+    bottom: 370px;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;
@@ -210,7 +211,63 @@
     overflow: hidden;
 }
 
+/* footer */
+
 .footer {
     height:150px;
-    background-color: royalblue;
+    background-color: hsla(24,38%,57%,.7);
+}
+
+.social-networks {
+    text-align:  center;
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 180%;
+    margin: auto;
+    padding: 3%;
+    padding-top: 2%;
+    color: #3a3a3a;
+}
+
+footer, p {
+    text-align: center;
+    margin: auto;
+    padding-top: 1%;
+}
+
+
+
+/* About Us Page */
+
+.about-us-page {
+    min-height: 150vh;
+    text-align: center;
+}
+
+.about-us-header {
+    font-weight: 200;
+    margin: 0px;
+    padding: 20px;
+    color: black;
+    font-size: 30px;
+    background-color: #fff;
+    height: fit-content;
+    height: 55px;
+    letter-spacing: 3px;
+}
+
+.about-img {
+    width: 80%;
+    background-image: url(../images/about-us-img.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
 }
