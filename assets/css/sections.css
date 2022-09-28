@@ -189,8 +189,28 @@
 /* maps section */
 
 .maps {
-    min-height: 75vh;
-    width: 100%;
-    background-color: maroon;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 75px;
+    margin-bottom: 50px;
 }
 
+.map-wrapper {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.map {
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+}
+
+.footer {
+    height:150px;
+    background-color: royalblue;
+}

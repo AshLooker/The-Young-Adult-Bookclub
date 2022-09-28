@@ -82,6 +82,10 @@
 .row {
   flex-direction: column;
 }
+
+.map-wrapper {
+  flex-direction: column;
+}
 }
 
 
