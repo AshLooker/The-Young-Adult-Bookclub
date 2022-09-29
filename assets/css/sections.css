@@ -267,6 +267,7 @@ input[type=text], select, textarea {
     background-color: #f2f2f2;
     padding: 60px;
     margin-bottom: 30px;
+    margin-top: 20px;
   }
 
 /* footer */
@@ -301,5 +302,56 @@ footer, p {
     padding-top: 1%;
 }
 
+/* Thank you page */
 
+.thankYou-page{
+    height: 75vh;
+}
 
+  .thank-you-img {
+    background-image:linear-gradient(rgba(2, 2, 2, 0.5),rgba(2, 2, 2, 0.5)),url(../images/thankYou-img.jpeg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-size: 25px;
+  }
+  
+  
+  .middle-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  h4 {
+    font-size: 50px;
+  }
+
+  /* contact request */
+
+  .contactRequest-page{
+    height: 75vh;
+}
+
+  .contactRequest-img {
+    background-image:linear-gradient(rgba(2, 2, 2, 0.5),rgba(2, 2, 2, 0.5)),url(../images/get-back.jpeg);
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    color: white;
+    font-size: 25px;
+  }
+  
+  
+  .contactRequest-text {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
