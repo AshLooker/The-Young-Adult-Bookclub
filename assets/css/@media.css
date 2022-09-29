@@ -39,7 +39,7 @@
 .about-us {
   min-height: 79vh;
   width: 100%;
-  background-image: linear-gradient(rgba(2, 2, 2, 0.5),rgba(2, 2, 2, 0.5)),url(assets/images/gc-library.jpg);
+  background-image: linear-gradient(rgba(2, 2, 2, 0.5),rgba(2, 2, 2, 0.5)),url(../images/gc-library.jpg);
   background-position: center;
   background-size: cover;
   position: relative;
