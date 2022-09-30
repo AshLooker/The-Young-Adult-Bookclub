@@ -5,7 +5,7 @@
     font-weight: 600;
     margin: 0px;
     padding: 20px;
-    color: black;
+    color: #000;
     font-size: 30px;
     background-color: #fff;
     height: fit-content;
@@ -341,7 +341,7 @@ footer, p {
     background-position: center;
     background-size: cover;
     position: relative;
-    color: white;
+    color: #fff;
     font-size: 25px;
   }
   
@@ -370,7 +370,7 @@ footer, p {
     background-position: center;
     background-size: cover;
     position: relative;
-    color: white;
+    color: #fff;
     font-size: 25px;
   }
   
