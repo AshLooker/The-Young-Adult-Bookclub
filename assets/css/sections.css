@@ -271,6 +271,32 @@ input[type=text], select, textarea {
     margin-top: 20px;
   }
 
+
+  /* meeting times section */
+
+.meeting-time {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.time {
+  border-radius: 10px;
+  margin-bottom: 30px;
+  position: relative;
+  overflow: hidden;
+}
+
+.meeting-column {
+    flex-basis: 22%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
+    background-color: hsla(24,38%,57%,.7);
+    
+}
 /* footer */
 
 .footer {
