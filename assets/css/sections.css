@@ -258,8 +258,18 @@ input[type=text], select, textarea {
     cursor: pointer;
     border-radius: 4px;
   }
+
+  input[type=button] {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 0px;
+    border: none;
+    margin-top: 8px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
   
-  input[type=submit]:hover {
+  input[type=submit]:hover, input[type=button]:hover {
     background-color: #1b5b70;
   }
   
