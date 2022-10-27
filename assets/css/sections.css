@@ -269,10 +269,13 @@ input[type=text], select, textarea {
     border-radius: 4px;
   }
   
-  input[type=submit]:hover, input[type=button]:hover {
-    background-color: #1b5b70;
+  input[type=submit]:hover {
+    background-color: #07ffa4;
   }
-  
+
+  input[type=button]:hover {
+    background-color: #ff1100;
+  }
   .container-contact {
     border-radius: 5px;
     background-color: #f2f2f2;
