@@ -147,7 +147,13 @@ The only real thing that's giving me issues, is the image in the About Us page, 
 
 ### Validator Testing
 - html files pass through the [W3C validator](https://validator.w3.org/) with no errors, but a few warnings, but was advised to not worry about them.
+
+- Main Page:
 ![W3C validator message](/assets/images-readme/validator-html.png)
+
+- About us Page:
+![W3C validator message](/assets/images-readme/aboutUs-validation.png)
+
 
 - html files pass through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found.
 ![Jigsaw validator message](/assets/images-readme/validator-css.png)
