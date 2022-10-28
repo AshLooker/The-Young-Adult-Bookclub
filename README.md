@@ -154,6 +154,9 @@ The only real thing that's giving me issues, is the image in the About Us page, 
 - About us Page:
 ![W3C validator message](/assets/images-readme/aboutUs-validation.png)
 
+- Contact Us Page:
+![W3C validator message](/assets/images-readme/contactUs-validation.png)
+
 
 - html files pass through the [Jigsaw validator](https://jigsaw.w3.org/css-validator/) with no issues found.
 ![Jigsaw validator message](/assets/images-readme/validator-css.png)
